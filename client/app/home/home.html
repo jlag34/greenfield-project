@@ -1,0 +1,42 @@
+<html>
+<head> 
+	<link rel="stylesheet" type="text/css" href="../../style/style.css" />
+</head>
+
+<body>
+
+	<div id='navPanel'>
+		<button type="button" class='right' class="btn btn-default" ng-click="open()">Open me!</button>
+		<p class='left'>logo here</p>
+	</div>
+
+
+	<div id='bodyWrapper'>
+		<div id='homeWrapper'>
+			<div id='mainBody'>
+				<div id='exampleImage'></div>
+
+				<div id='pitch'>
+					<h1>Claim the space you need with Dibs</h1>
+					<h3>Easy scheduler that communicates with everyone in your place</h3>
+				</div>
+
+				<div id='signup'>
+					<form name='signupForm' ng-submit='signup()'>
+						<div id='name'>
+							<input type='text' placeholder="{{firstName}}">
+							<input type='text' placeholder="{{lastName}}"></br>
+							<input type='text' style="width: 290px;" placeholder="{{email}}"></br>
+							<input type='password' style="width: 290px;" placeholder="{{password}}"></br>
+							<button>Sign up for free!</button>
+						</div>
+					</form>
+				</div>
+				<!-- Watch out, might have to clear float -->
+			</div>
+
+		</div>
+	</div>
+
+</body>
+</html>
